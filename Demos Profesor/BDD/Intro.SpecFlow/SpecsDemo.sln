@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CajeroAutomatico", "CajeroAutomatico\CajeroAutomatico.vbproj", "{A4BDCBF0-7147-43FF-B9EB-C034A2DBC9C8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarritoDeCompras", "CarritoDeCompras\CarritoDeCompras.vbproj", "{47F3DF55-28DA-4020-8A2C-33E185AC639D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarritoDeCompras.Specs", "CarritoDeCompras.Specs\CarritoDeCompras.Specs.vbproj", "{50562FDB-A4E8-4B50-B1F2-592B5E2BD012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Carrito", "Carrito", "{8C8D3AB3-C6CA-463D-A16D-2F1AF0435C02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cajero", "Cajero", "{CC1031CF-AB9B-4EFB-B279-7743CF8C71F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Restaurant", "Restaurant", "{EEC37A11-5ABC-4DC5-9591-29A51E950554}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CajeroAutomatico.Specs", "SpecsES\CajeroAutomatico.Specs.vbproj", "{A9A6A0EE-495A-40E8-96FE-F2AA3B68735F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Restaurants", "FavRestaurants\Restaurants.vbproj", "{0EABA5D4-1BB1-4D79-8296-0B89786D7B06}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Restaurants.Specs", "Specs\Restaurants.Specs.vbproj", "{7D7F7E6D-D9C4-4629-A82F-9DD042BCCA98}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://oscarcenteno.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CajeroAutomatico\\CajeroAutomatico.vbproj
+		SccProjectTopLevelParentUniqueName1 = SpecsDemo.sln
+		SccProjectName1 = CajeroAutomatico
+		SccLocalPath1 = CajeroAutomatico
+		SccProjectUniqueName2 = CarritoDeCompras\\CarritoDeCompras.vbproj
+		SccProjectTopLevelParentUniqueName2 = SpecsDemo.sln
+		SccProjectName2 = CarritoDeCompras
+		SccLocalPath2 = CarritoDeCompras
+		SccProjectUniqueName3 = CarritoDeCompras.Specs\\CarritoDeCompras.Specs.vbproj
+		SccProjectTopLevelParentUniqueName3 = SpecsDemo.sln
+		SccProjectName3 = CarritoDeCompras.Specs
+		SccLocalPath3 = CarritoDeCompras.Specs
+		SccProjectUniqueName4 = SpecsES\\CajeroAutomatico.Specs.vbproj
+		SccProjectTopLevelParentUniqueName4 = SpecsDemo.sln
+		SccProjectName4 = SpecsES
+		SccLocalPath4 = SpecsES
+		SccProjectUniqueName5 = FavRestaurants\\Restaurants.vbproj
+		SccProjectTopLevelParentUniqueName5 = SpecsDemo.sln
+		SccProjectName5 = FavRestaurants
+		SccLocalPath5 = FavRestaurants
+		SccProjectUniqueName6 = Specs\\Restaurants.Specs.vbproj
+		SccProjectTopLevelParentUniqueName6 = SpecsDemo.sln
+		SccProjectName6 = Specs
+		SccLocalPath6 = Specs
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4BDCBF0-7147-43FF-B9EB-C034A2DBC9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BDCBF0-7147-43FF-B9EB-C034A2DBC9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BDCBF0-7147-43FF-B9EB-C034A2DBC9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BDCBF0-7147-43FF-B9EB-C034A2DBC9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F3DF55-28DA-4020-8A2C-33E185AC639D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F3DF55-28DA-4020-8A2C-33E185AC639D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F3DF55-28DA-4020-8A2C-33E185AC639D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F3DF55-28DA-4020-8A2C-33E185AC639D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50562FDB-A4E8-4B50-B1F2-592B5E2BD012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50562FDB-A4E8-4B50-B1F2-592B5E2BD012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50562FDB-A4E8-4B50-B1F2-592B5E2BD012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50562FDB-A4E8-4B50-B1F2-592B5E2BD012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A6A0EE-495A-40E8-96FE-F2AA3B68735F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A6A0EE-495A-40E8-96FE-F2AA3B68735F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A6A0EE-495A-40E8-96FE-F2AA3B68735F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A6A0EE-495A-40E8-96FE-F2AA3B68735F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EABA5D4-1BB1-4D79-8296-0B89786D7B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EABA5D4-1BB1-4D79-8296-0B89786D7B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EABA5D4-1BB1-4D79-8296-0B89786D7B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EABA5D4-1BB1-4D79-8296-0B89786D7B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7F7E6D-D9C4-4629-A82F-9DD042BCCA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7F7E6D-D9C4-4629-A82F-9DD042BCCA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7F7E6D-D9C4-4629-A82F-9DD042BCCA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7F7E6D-D9C4-4629-A82F-9DD042BCCA98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4BDCBF0-7147-43FF-B9EB-C034A2DBC9C8} = {CC1031CF-AB9B-4EFB-B279-7743CF8C71F5}
+		{47F3DF55-28DA-4020-8A2C-33E185AC639D} = {8C8D3AB3-C6CA-463D-A16D-2F1AF0435C02}
+		{50562FDB-A4E8-4B50-B1F2-592B5E2BD012} = {8C8D3AB3-C6CA-463D-A16D-2F1AF0435C02}
+		{A9A6A0EE-495A-40E8-96FE-F2AA3B68735F} = {CC1031CF-AB9B-4EFB-B279-7743CF8C71F5}
+		{0EABA5D4-1BB1-4D79-8296-0B89786D7B06} = {EEC37A11-5ABC-4DC5-9591-29A51E950554}
+		{7D7F7E6D-D9C4-4629-A82F-9DD042BCCA98} = {EEC37A11-5ABC-4DC5-9591-29A51E950554}
+	EndGlobalSection
+EndGlobal
