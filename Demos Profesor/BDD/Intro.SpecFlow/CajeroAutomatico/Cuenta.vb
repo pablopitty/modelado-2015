@@ -1,4 +1,8 @@
-﻿Public Class Cuenta
+﻿''' <summary>
+''' Clase para la Cuenta
+''' </summary>
+''' <remarks></remarks>
+Public Class Cuenta
 
     Private saldo As Integer
 
