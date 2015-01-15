@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BCCRLiberaciones" Class="LASDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=brescia;Initial Catalog=BCCRLiberaciones;Integrated Security=True" SettingsObjectName="Tfs.BusquedaSencilla.My.MySettings" SettingsPropertyName="BCCRLiberacionesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Proyecto" Member="Proyectos">
+    <Type Name="Proyecto">
+      <Column Name="IdProyecto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="RutaControladorVersiones" Type="System.String" DbType="VarChar(512)" CanBeNull="true" />
+      <Column Name="Version" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CCNetProjectUrl" Type="System.String" DbType="VarChar(1024) NOT NULL" CanBeNull="false" />
+      <Column Name="ServidorCCNET" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

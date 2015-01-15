@@ -1,0 +1,20 @@
+Lista de responsabilidades:
+
+Windows Forms
+Acceso a base de datos con LinQ
+Acceso a TFS por medio de su API
+Logica del negocio
+Configura las dependencias
+
+Características
+La capa de lógica de negocio está acoplada a la tecnología de presentación, de base de datos y otros servicios (api).
+
+PIENSE en una aplicación de negocio de larga vida...
+
+¿Qué sucede si cambiamos la tecnología de base de datos?
+Cada 3 años cambia.
+
+¿Que sucede cuando queremos migrar a una nueva interfaz de usuario?
+
+¿Qué sucede cuando se migró a otra versión de TFS y el API cambió?
+

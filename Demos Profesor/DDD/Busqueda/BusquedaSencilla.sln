@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Antes", "Antes", "{9B436DE7-9B3A-4B77-B063-4307EEC0A0F9}"
+	ProjectSection(SolutionItems) = preProject
+		responsabilidades.txt = responsabilidades.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Despues", "Despues", "{17F33C10-CFC8-45C8-BA6E-5A450144B28E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{54DE0302-7DFF-457E-BF51-3A1438641D14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{29339611-E920-4365-993E-1827768098DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46E699E2-C6D8-4F08-858D-CC739468B3C3}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusquedaSencilla", "BusquedaSencilla\BusquedaSencilla.vbproj", "{8C736A11-D5BA-4057-BDB4-09F26FE44DCB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusquedaSencilla.BusinessLogic", "BusquedaSencilla.Core\BusquedaSencilla.BusinessLogic.vbproj", "{66A1E582-9DFA-4441-BB6A-5C778F717AAF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusquedaSencilla.App", "BusquedaSencilla.App\BusquedaSencilla.App.vbproj", "{C697125A-65E3-4B33-8F84-DB8DE660F8BF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusquedaSencilla.Database", "BusquedaSencilla.Database\BusquedaSencilla.Database.vbproj", "{D67DE1AB-7A5B-468D-AFAD-565BCBBAD54D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusquedaSencilla.UnitTesting", "BusquedaSencilla.UnitTesting\BusquedaSencilla.UnitTesting.vbproj", "{8F6D7CD7-C47F-4EE1-A739-CFEE0C89260B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusquedaSencilla.Tfs", "BusquedaSencilla.Tfs\BusquedaSencilla.Tfs.vbproj", "{F3EEA9D3-1892-463E-957D-28B78786BDE1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusquedaSencilla.Specs", "BusquedaSencilla.Specs\BusquedaSencilla.Specs.vbproj", "{4F281BB9-C5CF-44BE-ABAA-8E8974EA5D5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referencias", "Referencias", "{40B5E129-F093-48ED-98DD-799DE5EBFCD6}"
+	ProjectSection(SolutionItems) = preProject
+		referencias\Microsoft.TeamFoundation.Client.dll = referencias\Microsoft.TeamFoundation.Client.dll
+		referencias\Microsoft.TeamFoundation.VersionControl.Client.dll = referencias\Microsoft.TeamFoundation.VersionControl.Client.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C736A11-D5BA-4057-BDB4-09F26FE44DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C736A11-D5BA-4057-BDB4-09F26FE44DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C736A11-D5BA-4057-BDB4-09F26FE44DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C736A11-D5BA-4057-BDB4-09F26FE44DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A1E582-9DFA-4441-BB6A-5C778F717AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A1E582-9DFA-4441-BB6A-5C778F717AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A1E582-9DFA-4441-BB6A-5C778F717AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A1E582-9DFA-4441-BB6A-5C778F717AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C697125A-65E3-4B33-8F84-DB8DE660F8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C697125A-65E3-4B33-8F84-DB8DE660F8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C697125A-65E3-4B33-8F84-DB8DE660F8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C697125A-65E3-4B33-8F84-DB8DE660F8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67DE1AB-7A5B-468D-AFAD-565BCBBAD54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67DE1AB-7A5B-468D-AFAD-565BCBBAD54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67DE1AB-7A5B-468D-AFAD-565BCBBAD54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67DE1AB-7A5B-468D-AFAD-565BCBBAD54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6D7CD7-C47F-4EE1-A739-CFEE0C89260B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6D7CD7-C47F-4EE1-A739-CFEE0C89260B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6D7CD7-C47F-4EE1-A739-CFEE0C89260B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6D7CD7-C47F-4EE1-A739-CFEE0C89260B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EEA9D3-1892-463E-957D-28B78786BDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EEA9D3-1892-463E-957D-28B78786BDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EEA9D3-1892-463E-957D-28B78786BDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EEA9D3-1892-463E-957D-28B78786BDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F281BB9-C5CF-44BE-ABAA-8E8974EA5D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F281BB9-C5CF-44BE-ABAA-8E8974EA5D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F281BB9-C5CF-44BE-ABAA-8E8974EA5D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F281BB9-C5CF-44BE-ABAA-8E8974EA5D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54DE0302-7DFF-457E-BF51-3A1438641D14} = {17F33C10-CFC8-45C8-BA6E-5A450144B28E}
+		{29339611-E920-4365-993E-1827768098DB} = {17F33C10-CFC8-45C8-BA6E-5A450144B28E}
+		{8C736A11-D5BA-4057-BDB4-09F26FE44DCB} = {9B436DE7-9B3A-4B77-B063-4307EEC0A0F9}
+		{66A1E582-9DFA-4441-BB6A-5C778F717AAF} = {29339611-E920-4365-993E-1827768098DB}
+		{C697125A-65E3-4B33-8F84-DB8DE660F8BF} = {54DE0302-7DFF-457E-BF51-3A1438641D14}
+		{D67DE1AB-7A5B-468D-AFAD-565BCBBAD54D} = {54DE0302-7DFF-457E-BF51-3A1438641D14}
+		{8F6D7CD7-C47F-4EE1-A739-CFEE0C89260B} = {54DE0302-7DFF-457E-BF51-3A1438641D14}
+		{F3EEA9D3-1892-463E-957D-28B78786BDE1} = {54DE0302-7DFF-457E-BF51-3A1438641D14}
+		{4F281BB9-C5CF-44BE-ABAA-8E8974EA5D5D} = {54DE0302-7DFF-457E-BF51-3A1438641D14}
+	EndGlobalSection
+EndGlobal
