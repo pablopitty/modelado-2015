@@ -1,0 +1,14 @@
+<Language code="es" cultureInfo="es" defaultSpecificCulture="es-ES" englishName="Spanish">
+    <Feature>Característica</Feature>
+    <Background>Antecedentes</Background>
+    <Scenario>Escenario</Scenario>
+    <ScenarioOutline>Esquema del escenario</ScenarioOutline>
+    <Examples>Ejemplos</Examples>
+    <Given>Dado</Given>
+    <Given>Dada</Given>
+    <Given>Dados</Given>
+    <Given>Dadas</Given>
+    <When>Cuando</When>
+    <Then>Entonces</Then>
+    <And>Y</And>
+    <But>Pero</But>
