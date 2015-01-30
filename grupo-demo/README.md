@@ -14,6 +14,3 @@
 
 ## Aplicación 
 App para recomendar restaurantes
-
-##Historias iniciales en: 
-Personas e Historias de usuario.xlsx
